@@ -1,0 +1,22 @@
+Programação Full Stack I - Projeto Casa+
+
+Link do projeto backend + frontend : https://github.com/julianocamposcode/casa_mais
+
+├── casa_mais/
+│   ├── backend
+│   └── frontend
+
+Aldruin Bonfim de Lima Souza RA : 10482416915 - Gerenciar Medicamentos
+https://youtu.be/O5ZZoweQiLo
+
+Fabio Aloisio Gonçalves RA : 10482417037 - Gerenciar Doações
+Opção 1 - https://drive.google.com/file/d/1BsByCQpqGxv_rXyBKrHAxoaU1EWUNdeZ/view?usp=sharing
+Opção 2 - https://mega.nz/file/kMwymCra#jytnLZgmrX_a69H4thtlxqOOQa_-wbZ9_6MtHvI6TE4
+
+Juliano Campos dos Santos RA : 10482417402 - Gerenciar Assistidas
+https://drive.google.com/file/d/1oecrkSrT-8pjgasyMc-Z3Vbdpnc6BaEO/view?usp=sharing
+"Meu video acabou ficando longo e não carregou no drive a tempo, minha internet
+é fraca, estão estou enviando o video por aqui, a gravação foi dentro do prazo
+estipulado para a entrega da atividade.
+Link do vídeo drive:
+https://drive.google.com/file/d/1oecrkSrT-8pjgasyMc-Z3Vbdpnc6BaEO/view "
