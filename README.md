@@ -76,18 +76,26 @@ npm run dev
 
 ### ✅ Implementadas
 
-- **Gestão de Assistidas**: Cadastro completo, histórico, internações
-- **Medicamentos**: Controle de estoque com validade
-- **Doações**: Registro de doadores PF/PJ com estatísticas
-- **Dashboard**: Visão geral com indicadores
-- **Design Responsivo**: Mobile, tablet e desktop
+- **Gestão de Assistidas**: Cadastro completo, histórico médico, internações e drogas
+- **Medicamentos**: Controle de estoque com validade e movimentações
+- **Doações**: Sistema completo com doadores PF/PJ, validação de documentos
+- **Doadores**: CRUD completo com validação de CPF/CNPJ
+- **Dashboard**: Visão geral com indicadores e estatísticas
+- **Design Responsivo**: Interface otimizada para mobile, tablet e desktop
+
+### 🆕 Atualizações Recentes
+
+- **Modal de Confirmação**: Corrigido comportamento no formulário de assistidas
+- **Validação de Dados**: Implementada validação robusta de CPF/CNPJ
+- **Interface Padronizada**: Unificação de espaçamento e componentes
+- **Documentação**: READMEs atualizados com instruções completas
 
 ### 🚧 Em Desenvolvimento
 
-- **Consultas**: Agendamento médico
-- **Despesas**: Controle financeiro
-- **Usuários**: Sistema de autenticação
-- **Relatórios**: Exportação PDF/Excel
+- **Consultas**: Agendamento e acompanhamento médico
+- **Despesas**: Controle financeiro e relatórios
+- **Usuários**: Sistema de autenticação e permissões
+- **Relatórios**: Exportação PDF/Excel e dashboards avançados
 
 ## 🔗 Repositórios dos Submódulos
 
@@ -101,8 +109,10 @@ npm run dev
 | Assistidas   | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
 | Medicamentos | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
 | Doações      | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Doadores     | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
 | Consultas    | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
 | Despesas     | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
+| Usuários     | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
 
 ## 🛠️ Tecnologias
 
