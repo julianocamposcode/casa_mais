@@ -41,17 +41,25 @@ git submodule update --init --recursive
 ```bash
 cd backend
 
-# Instalar dependências
+# Instale as dependências
 npm install
 
-# Configurar MySQL (veja docs/CONFIGURACAO_MYSQL.md)
-# Editar src/config/database.js se necessário
+# Configure o arquivo .env
+cp .env.example .env
+
+# Edite o .env com suas credenciais MySQL
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=sua_senha
+DB_NAME=casamais_db
+DB_PORT=3306
 
 # Criar banco e tabelas
-node setup-db.js
+npm run setup-db
 
 # Popular dados de exemplo
-node populate-db.js
+npm run populate-db.js
+npm run populate-doadores.js
 
 # Iniciar servidor (porta 3003)
 npm start
