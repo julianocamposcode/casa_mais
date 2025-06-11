@@ -209,3 +209,9 @@ error.log
 
 # Cache de ferramentas
 .cache/
+
+# Claude Code cache
+.claude/
+CLAUDE.md
+.gitignore
+
