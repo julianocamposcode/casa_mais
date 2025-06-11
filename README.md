@@ -84,26 +84,29 @@ npm run dev
 
 ### ✅ Implementadas
 
-- **Gestão de Assistidas**: Cadastro completo, histórico médico, internações e drogas
-- **Medicamentos**: Controle de estoque com validade e movimentações
-- **Doações**: Sistema completo com doadores PF/PJ, validação de documentos
-- **Doadores**: CRUD completo com validação de CPF/CNPJ
+- **Gestão de Assistidas**: Cadastro completo, histórico médico, internações e medicamentos
+- **Gestão de Medicamentos**: Controle de estoque com validade e movimentações
+- **Gestão de Doações**: Sistema completo com doadores PF/PJ, validação de documentos
+- **Gestão de Doadores**: CRUD completo com validação de CPF/CNPJ
+- **Gestão de Tipos de Despesas**: Configuração de categorias de despesas
+- **Gestão de Despesas**: Controle financeiro completo
 - **Dashboard**: Visão geral com indicadores e estatísticas
 - **Design Responsivo**: Interface otimizada para mobile, tablet e desktop
 
 ### 🆕 Atualizações Recentes
 
-- **Modal de Confirmação**: Corrigido comportamento no formulário de assistidas
-- **Validação de Dados**: Implementada validação robusta de CPF/CNPJ
-- **Interface Padronizada**: Unificação de espaçamento e componentes
-- **Documentação**: READMEs atualizados com instruções completas
+- **Sistema de Despesas**: Implementado gestão completa de tipos de despesas e despesas
+- **Validação de Documentos**: Sistema robusto de validação de CPF/CNPJ com dígitos verificadores
+- **Interface Modernizada**: Layout responsivo com sidebar reorganizada
+- **API Expandida**: Endpoints completos para todos os módulos principais
+- **Documentação Técnica**: Guias detalhados com exemplos CURL e configuração
 
 ### 🚧 Em Desenvolvimento
 
 - **Consultas**: Agendamento e acompanhamento médico
-- **Despesas**: Controle financeiro e relatórios
 - **Usuários**: Sistema de autenticação e permissões
 - **Relatórios**: Exportação PDF/Excel e dashboards avançados
+- **Notificações**: Sistema de alertas e lembretes
 
 ## 🔗 Repositórios dos Submódulos
 
@@ -112,15 +115,17 @@ npm run dev
 
 ## 📊 Status da Integração
 
-| Módulo       | Frontend              | Backend     | Integração   |
-| ------------ | --------------------- | ----------- | ------------ |
-| Assistidas   | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
-| Medicamentos | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
-| Doações      | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
-| Doadores     | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
-| Consultas    | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
-| Despesas     | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
-| Usuários     | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
+| Módulo           | Frontend              | Backend     | Integração   |
+| ---------------- | --------------------- | ----------- | ------------ |
+| Assistidas       | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Medicamentos     | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Unidades Medida  | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Doações          | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Doadores         | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Tipos Despesas   | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Despesas         | ✅ UI Completa        | ✅ API REST | ✅ Integrado |
+| Consultas        | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
+| Usuários         | 🚧 Em desenvolvimento | ❌ Pendente | ❌ Pendente  |
 
 ## 🛠️ Tecnologias
 
@@ -144,7 +149,14 @@ npm run dev
 - [Configuração MySQL](./docs/CONFIGURACAO_MYSQL.md)
 - [Integração Frontend-API](./docs/INTEGRACAO_FRONTEND_API.md)
 - [Gerenciar Submódulos](./docs/REPOSITORIOS_INDEPENDENTES.md)
+- [Compatibilidade Cross-Platform](./docs/COMPATIBILIDADE_CROSS_PLATFORM.md)
 - [Histórico de Versões](./docs/VERSIONS.md)
+
+### Documentação dos Módulos
+
+- [Backend - Comandos CURL](./backend/docs/CURL_COMMANDS.md)
+- [Backend - Validação de Documentos](./backend/docs/DOCUMENTOS_VALIDOS.md)
+- [Frontend - Melhorias de UX](./frontend/frontend-ux.md)
 
 ## 🤝 Contribuindo
 
