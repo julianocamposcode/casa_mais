@@ -136,6 +136,7 @@ npm run dev
 - [Configuração MySQL](./docs/CONFIGURACAO_MYSQL.md)
 - [Integração Frontend-API](./docs/INTEGRACAO_FRONTEND_API.md)
 - [Gerenciar Submódulos](./docs/REPOSITORIOS_INDEPENDENTES.md)
+- [Compatibilidade Cross-Platform](./docs/COMPATIBILIDADE_CROSS_PLATFORM.md)
 - [Histórico de Versões](./docs/VERSIONS.md)
 
 ## 🤝 Contribuindo
